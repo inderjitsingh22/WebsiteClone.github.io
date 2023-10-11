@@ -1,0 +1,48 @@
+@media (max-width: 950px) {
+    .work-cont {
+        width: 95%;
+    }
+    .cont-1 {
+        flex-direction: column;
+        margin-top: 4vw;
+        gap: 50px;
+    }
+
+    .cont1-right {
+        width: 100%;
+    }
+
+    .imag-div {
+        width: 200px;
+        height: 120px;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+
+    .left-right {
+        display: none;
+    }
+
+    .cont1-left .elm {
+        position: relative;
+        height: 17vw;
+    }
+
+    .cont1-left .elm h1 {
+        font-size: 20vw;
+    }
+    .cont1-left button {
+        padding: 2.7vw 9vw;
+        font-size: 30px;
+    }
+    .top{
+        background-color: rgba(0, 0, 0, 0.687);
+    }
+    .cont-1 {
+        margin-top: 10vw;
+    }
+
+}

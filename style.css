@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@font-face {
+    font-family:kajiro ;
+    src: url(Kajiro\ Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+
+}
+.work-cont{
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    max-width: 1440px;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    padding: 17px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.left-nav h4{
+    pointer-events: all;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+.logo{
+    height: 50px;
+    
+}
+.left-right{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    padding: 0px 20px;
+}
+.left-right h4{
+    cursor: pointer;
+    pointer-events: all;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.cont-1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+.cont1-left{
+    min-width: 50%;
+}
+
+.cont1-left .elm{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+} 
+.cont1-left .elm h1:nth-child(1){
+    top: 0;
+}
+.cont1-left .elm h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-family: kajiro;
+    color: white;
+    font-weight: 100;
+    font-size: 11vw;
+}
+.cont1-left button {
+    pointer-events: all;
+    cursor: pointer;
+    padding: .7vw 3vw;
+    font-size: 3vw;
+    font-family: kajiro;
+    margin-top: 2vw;
+}
+.cont1-right{
+    width: 17%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.imag-div{
+    width: 100%;
+    height: 140px;
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2128&q=80);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0px;
+}
+.cont1-right p{
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
